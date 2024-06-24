@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #ecf2f8;
+}
+.navbar{
+    height:67px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    
+}
+.logo{
+    
+    height: 40px;
+    width: 100px;
+    background-size: cover
+}
+
+.navsearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbox{
+    height: 42px;
+    width:670px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ecf2f8;
+    font-size: 1.1rem;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.searchicon{
+    background-color: #ecf2f8;
+    color: rgb(105, 106, 106);
+    height: 42px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-left: 50px;
+}
+.prelogin{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    margin-right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+
+}
+
+.login{
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: rgb(37, 36, 36);
+    margin-right: 3px;
+}
+.prelogin:hover{
+    background-color: #2a55e5;
+    color: white;
+}
+
+.select-login:hover{
+    background-color: #2a55e5;
+    color: white;
+}
+
+.select-login{
+    border: none;
+    height: 40px;
+    width: 100px;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    background-color: transparent;
+}
+.navcart{
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+.navseller{
+    font-size: 1.1rem;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.herosection{
+    background-color: white;
+    height: 126.5px;
+    width: 97.9%;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heroimg{
+    text-align: center;
+    font-size: 0.95rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+.grocery img{
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    padding: 5px;
+    
+}
+.heroimg1{
+    margin-left: 110px;
+    text-align: center;
+    font-size: 0.95rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+.heroimg2{
+    text-align: center;
+    font-size: 0.95rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:550;
+    margin-right: 110px;
+}
+.appliances img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    background-size: cover;
+    padding: 5px;
+}
+
+.mobile img{
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    padding: 5px;
+}
+
+.fashion img{
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    padding: 5px;
+}
+
+.electronics img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    background-size: cover;
+    padding: 5px;
+}
+.home img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    background-size: cover;
+    padding: 5px;
+}
+.travel img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    background-size: cover;
+    padding: 5px;
+}
+
+.beauty img{
+    height: 64px;
+    width: 100px;
+    background-size: cover;
+    padding: 5px;
+}
+.twowheelers img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    background-size: cover;
+    padding: 5px;
+}
+select{
+    border: none;
+    font-size: 0.95rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navpanel1{
+    background-color: white;
+    height: 250px;
+    width: 97.9%;
+    margin-top: 15px;
+    background-image: url(banner.webp);
+    background-size: cover;
+}
+
+.bodypart{
+    height: 64px;
+    background-color: white;
+    width: 1228px;
+    margin-left: 15px;
+    margin-top: 15px; 
+    display: flex;
+    align-items: center;
+}
+
+.option h3{
+    font-family: Arial;
+    font-weight: 650;
+    font-size: 1.2rem;
+    color: #212121;
+}
+.option{
+    height: 28px;
+    width: 95%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.navarrow{
+    background-color:#2a55e5;
+    border-radius: 4px;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: white;
+}
+.navoption{
+    padding: 16px;
+}
+.navbox{
+    height: 280px;
+    width: 1228px;
+    background-color:white;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.box1 img{
+    height: 207px;
+    width: 99%;
+}
+.box1{
+    background-color: white;
+    border-radius: 4px;
+    border: 0.2px solid rgb(238, 235, 235);
+    height: 250px;
+    width: 205px;
+}
+.box1 p{
+    color: #212121;
+    font-size: 0.9rem;
+}
+.box1 h3{
+    color: #212121;
+    font-size: 0.9rem;
+}
+.box1:hover{
+    border: 2px solid rgb(185, 179, 179);
+}
+
+.navair{
+    background-color: #ecf2f8;
+    height: 355px;
+    width: 250.6px;
+    position: absolute;
+    right: 10px;
+    margin-top: 9px;
+}
+
+.bodypart2{
+    height: 64px;
+    background-color: white;
+    width: 97.9%;
+    margin-left: 15px;
+    margin-top: 15px; 
+    display: flex;
+    align-items: center;
+}
+
+.option2{
+    height: 28px;
+    width: 96%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.option2 h3{
+    color: #212121;
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
+.navbox2{
+    height: 280px;
+    width: 97.9%;
+    background-color:white;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.airindia img{
+    height: 355px;
+    width: 245.6px;
+}
+
+.superbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-box{
+    height: 80px;
+    width: 97.9%;
+    background-color: #ecf2f8;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.boxpart{
+    height: 80px;
+    background-color: white;
+    width: 485.2px;
+    display: flex;
+    align-items: center;
+}
+
+.option3{
+    height: 28px;
+    width: 420px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.option3 h3{
+    color: #212121;
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
+.shopbox{
+    height: 432px;
+    width: 410.2px;
+    background-color: #212121;
+}
+
+.superbody{
+    display: flex;
+    justify-content: center;
+}
+.bodybox{
+    height: 570px;
+    width: 97.9%;
+    background-color: #ecf2f8;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.boxopt{
+    height: 570px;
+    width: 485.2px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.opt1{
+    background-color: white;
+    height: 277px;
+    width: 225px;
+    margin-bottom: 6px;
+    border: 1.5px solid rgb(199, 196, 196);
+    border-radius: 4px;
+    margin-left: 6px;
+    text-align: center;
+}
+
+
+.opt2{
+    background-color: white;
+    height: 277px;
+    width: 225px;
+    margin-bottom: 6px;
+    margin-right: 6px;
+    border: 1.5px solid rgb(199, 196, 196);
+    border-radius: 4px;
+    text-align: center;
+}
+.opt3{
+    background-color: white;
+    height: 277px;
+    width: 225px;
+    border: 1.5px solid rgb(199, 196, 196);
+    margin-left: 6px;
+    border-radius: 4px;
+    text-align: center;
+}
+.opt4{
+    background-color: white;
+    height: 277px;
+    width: 225px;
+    margin-right: 6px;
+    border: 1.5px solid rgb(199, 196, 196);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.navinfo{
+    height: 24px;
+    width: 120px;
+    text-align: center;
+    margin-top: 17px;
+    font-size: 18px;
+}
+
+.navinfo2 h4{
+    height: 24px;
+    width: 135px;
+    text-align: center;
+    font-size: 18px;
+    color: #108934;
+}
+
+.navinfo3{
+    height: 24px;
+    width: 133px;
+    text-align: center;
+    margin-top: 17px;
+    font-size: 18px;
+}
+
+.navinfo4 h4{
+    height: 24px;
+    width: 145px;
+    text-align: center;
+    font-size: 18px;
+    color: #108934;
+}
+
+.navfooter{
+    height: 1035px;
+    width: 100%;
+    background-color: #ecf2f8;
+    margin: 50px 0px 0px;
+}
+.footer{
+    background-color: #f5f5f5;
+    padding: 25px;
+    height: 630px;
+    width: 100%;
+}
+
+.footerinfo{
+    margin: 14px 0px 0px;
+    padding: 15px 0px;
+    color: #565656;
+    height: 23px;
+    width: 100%;
+}
+
+span{
+    margin: 0px 4px 0px 0px;
+    font-size: 0.90rem;
+}
+.footerbrand{
+    height: 40px;
+    width: 100%;
+    margin: 4px 0px;
+    color: #565656;
+    font-size: 0.80rem;
+}
+.footerbrand1{
+    height: 10px;
+    width: 100%;
+    margin-top: 29px;
+    margin-bottom: 17px;
+    color: #565656;
+    font-size: 0.80rem;
+}
+
+.bottompart{
+    background-color: #212121;
+    height: 250px;
+    width: 100%;
+    padding: 40px 60px 0px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.navbottom{
+    background-color: transparent;
+    height: 205px;
+    width: 156px;
+}
+.boxinfo{
+    color: #878787;
+    font-size:0.8rem;
+    margin: 12px 0px 12px;
+}
+.information a{
+    color: #ffffff;
+}
+.information{
+    height: 18px;
+}
+
+.navbottom2{
+    height: 205px;
+    width: 287.5px;
+    padding: 0px 0px 0px 32px;
+    border-left: 0.8px solid #98aae8;
+}
+.boximage{
+    height: 27px;
+    width: 254px;
+    display: flex;
+    justify-content: flex-start;
+}
+.boximg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    margin-right: 12px;
+}
+
+.baseline{
+    background-color: #212121;
+    height: 69px;
+    width: 100%;
+    margin-top: 32px;
+    border-top: 1px solid #98aae8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer{
+    height: 318px;
+    width: 100%;
+    background-color: #212121;  
+}
+.labels{
+    color: #ffffff;
+    font-size: 11px;
+}
+span{
+    margin-left: 3px;
+    font-size: 12px;
+}
